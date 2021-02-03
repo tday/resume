@@ -1,0 +1,94 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[line]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{multicol}
+\usepackage{multirow}
+\newsectionwidth{0pt}
+\topmargin=-0.5in
+\begin{document} 
+
+\name{{\bf Teng Da (Alan) Yang | tday.github.io }} 
+
+\begin{resume} 
+Alan Yang is a passionate Engineering Leader who inspires teams to build highly performant, large scale systems across the stack, ranging from the web to native OS solutions. \\\\
+\begin{tabular}{ l | p{13cm}}
+{\bf Programming Languages} & C\#, Java, C, Python, TypeScript, JavaScript \\[1pt]
+{\bf Databases} & SQL (PostgreSQL, MySQL, MariaDB), MongoDB \\[1pt]
+{\bf DevOps} & AWS, Kubernetes, Terraform, Docker, various CI/CD platforms \\[1pt]
+{\bf Platforms} & Windows, MacOS, Unix, Embedded Software \\[1pt]
+{\bf Domain Experience } & Security, Web Development, Robotics, Embedded Software, Machine Learning  \\[1pt]
+{\bf Development Principles} & Evolutionary Architecture, TDD/BDD, scrum, KanBan \\[1pt]
+\end{tabular}
+
+\vspace{0.1in} 
+\section{{Professional Experience}} 
+\vspace{8pt}
+{\bf \underline{Engineering Manager, Web Development - Embark Veterinary }} \hfill {\sl June 2020 - Present}\\[2pt]
+ \begin{itemize} \itemsep -1pt % reduce space between items
+	\item Led discovery, executive proposal, and integration of a near \$200k investment that unblocked discovery of genetic conditions-- enabling the business to generate new IP, drive customer engagement, and ultimately achieve the company's mission
+	\item Drove 99.99\% uptime across all web assets through exponential burst-growth periods by creating a DevOps culture through CI/CD, observability, monitoring, proactive scaling enhancements, and incident response
+	\item Overhauled marketing engineering team from a cost center to a profit center enabling the team to yield 3+\% increases in CVR through frontend performance improvements
+	\item Managed two diverse Agile development teams (7 reports, junior/mid-level skill, 2 outsource contractors located globally, remote-first) to consistently deliver on OKRs with all direct reports rating eNPS as promoter during the COVID pandemic
+	\item Successfully promoted three direct reports within one year
+	\item Optimized development cycle time to 2-3 days through blameless retrospectives
+	\item Overhauled Engineering hiring process to enable team to objectively find high quality, diverse candidates as we double the engineering team from 13 to 26 in one year
+	\item Built and transitioned an evergreen Culture Task Force to promote company core values and continuously improve company culture
+	\item Introduced Agile practices to the Product Management team using the Agile onion
+	\item Directly reported to CTO
+ \end{itemize}
+ 
+{\bf \underline{Product Engineering Tech Lead - Embark Veterinary }} \hfill {\sl January 2019 - June 2020}\\[2pt]
+ \begin{itemize} \itemsep -1pt % reduce space between items
+	\item Led team of junior engineers to develop a new product line with a digital upsell within 3 months, delivering \$30M+ in sales following the launch
+	\item Revamped the core product feature, DNA health results
+	\item Migrated codebase from JavaScript to TypeScript by introducing repeatable patterns
+	\item Halved time in Code Review by introducing documentation, automated styling tools, and standards for reviewers and authors
+	\item Doubled size of engineering team by refining hiring and recruiting processes
+	\item Eliminated quarterly churn of outsourced contractors by enforcing onboarding and talent standards allowing for multi-year embedded contractors
+	\item Influenced organization to improve testing practices to reduce quality issues across all of engineering
+ \end{itemize}
+ 
+{\bf \underline{Senior Software Engineer - Barkly}} \hfill {\sl August 2016-December 2018}\\[2pt]
+Designed and developed software across Barkly's entire stack (SaaS/Desktop Native Apps)
+ \begin{itemize} \itemsep -1pt % reduce space between items
+ 	\item SaaS frontend and backend development (AWS, Java 8, Angular2, Typescript, PostgreSQL)
+	\item Significant contribution to early delivery of a complete overhaul of Barkly’s desktop application designed to be
+cross platform compatible on macOS and Windows (C\#, .NET core, IoT)
+	\item Designed and developed malware testing tool, stackhackr, end to end to help customers test malware prevention
+tools (AngularJS, Typescript, .NET, Java)
+	\item Automated Machine Learning to improve Barkly’s malware protection and reducing false positives (Python, sklearn,
+pandas)
+	\item Legacy desktop application development Windows (C\#, C, C++, .NET, NodeJS, CoffeeScript)
+	\item Large scale Malware Testing Automation to measure Barkly’s malware protection coverage nightly (Python, Kubernetes, Docker)
+	\item Just enough ”DevOps” to GSD (AWS, Terraform, Kubernetes, Docker, Bamboo, Jenkins)
+	\item Reigning office ping pong champion (Custom made paddle)
+ \end{itemize}
+ 
+{\bf \underline{Senior Software Engineer - Fidelis Cybersecurity}} \hfill {\sl August 2014-April 2016}\\[2pt]
+Built and maintained large scale (30000 submissions/hr) REST based automated malware detonation based on Fidelis XPS network monitoring solution
+
+{\bf \underline{Lead Software Engineer - Booz Allen Hamilton}} \hfill {\sl July 2010-August 2014}\\[2pt]
+Quickly developed from a junior software engineer to leading teams of 4-10 junior-senior engineers to build distributed embedded systems
+
+\vspace{0.1in}
+\section{{Education}} 
+\vspace{1pt} 
+{\bf M.S.}, {\sl Computer Science}  - Johns Hopkins University \\
+{\bf B.S.}, {\sl Computer Engineering} - University of Maryland College Park
+ 
+\vspace{0.1in}
+\section{{Interests}} 
+\vspace{-5pt} 
+\begin{center}
+Cooking, photography, running, hiking, programming, anime,  animals, sailing, motorcycles
+
+\vspace{.05in}
+{\tiny {\sl This resume created using LaTeX based on RPI's class file from http://www.rpi.edu/dept/arc/training/latex/resumes/}}
+\end{center} 
+ 
+\end{resume} 
+\end{document}
