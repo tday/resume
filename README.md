@@ -6,7 +6,7 @@ My personal resume
 
 I use MacTex.
 
-`brew install --cask mactex`
+`make install`
 
 This comes with TeXShop which makes it easier to edit and generate a PDF, keyboard shortcut is CMD+T.
 
